@@ -13,7 +13,7 @@ public class OperatoryPorownania {
 
         System.out.println(result);*/
         System.out.println("Czy a jest większe b? " + (firstNumber > secondNumber)); //false
-        System.out.println("Czy a jest mniejsze b? " + (firstNumber < secondNumber)); //true
+        System.out.println("Czy a jest mniejsze b?4 " + (firstNumber < secondNumber)); //true
         System.out.println("Czy a jest większe lub równe b? " + (firstNumber >= secondNumber)); //false
         System.out.println("Czy a jest mniejsze lub równe b? " + (firstNumber <= secondNumber)); //true
         System.out.println("Czy a jest równe b? " + (firstNumber == secondNumber)); //false
