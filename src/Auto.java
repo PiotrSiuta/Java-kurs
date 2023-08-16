@@ -1,19 +1,28 @@
 public class Auto {
 
     public String marka; //pole klasy auto
-    public  String model;
+    public String model;
     public int rok;
     public int przebieg;
+    public String numerAuta;
 
-    public void jedz() {
-        System.out.println("jedz");
+    public Auto (){
+
     }
 
-    public void hamuj() {
-        System.out.println("hamuj");
+    public Auto(String marka, String model, Integer rok, Integer przebieg, String numerAuta) {
+        this.marka = marka;
+        this.model = model;
+        this.rok = rok;
+        this.przebieg = przebieg;
+        this.numerAuta = numerAuta;
     }
 
-    public void info () {
+    public void autoNumer() {
+        System.out.println("To jest " + numerAuta + " auto");
+    }
+
+    public void info() {
         System.out.println("Marka " + marka);
         System.out.println("Model " + model);
         System.out.println("Rok produkcji " + rok);
